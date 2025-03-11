@@ -1,16 +1,31 @@
-## Hi👋, I'm VIDHI GUPTA
+# B.Tech Computer Science Student | Passionate Learner
+
+Hello! I'm  VIDHI GUPTA, a B.Tech Computer Science student from India, currently expanding my knowledge and skills in the field of technology. I'm a highly motivated and enthusiastic individual with a strong passion for learning and problem-solving.
+
+## About Me
+
+As a student, I'm actively engaged in learning core computer science concepts, including data structures, algorithms, and software development. I'm a quick learner and eager to apply my knowledge to practical projects.
+## Skills (In Progress)
+
+* **Programming Languages:** Python, C++, JavaScript (Learning).
+* **Web Development:** HTML, CSS (Familiar).
+* **Tools:** Git.
+* Actively learning and improving my skills in Data Structure and Algorithms.
+
+## Goals and Aspirations
+
+* To excel in my B.Tech Computer Science program.
+* To contribute to open-source projects and gain practical experience.
+* To explore and learn new technologies.
 
 <!--
-**Vidhi7973/Vidhi7973** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Connect
 
-Here are some ideas to get you started:
+* LinkedIn: [Your LinkedIn Profile URL]
+* [Optional: Add other relevant profiles, e.g., personal website]
 
 - 🔭  I’m currently working on improving my Problem Solving Skills.
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
 - 💬  Ask me about HTML, CSS, Javascript, React, C++ & Python
 - 📫 How to reach me: Email
 - 😄  Pronouns: She/Her
-- ⚡ Fun fact: ...
--->
+
