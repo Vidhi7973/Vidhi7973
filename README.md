@@ -7,8 +7,8 @@ Hello! I'm  VIDHI GUPTA, a B.Tech Computer Science student from India, currently
 As a student, I'm actively engaged in learning core computer science concepts, including data structures, algorithms, and software development. I'm a quick learner and eager to apply my knowledge to practical projects.
 ## Skills (In Progress)
 
-* **Programming Languages:** Python, C++, JavaScript (Learning).
-* **Web Development:** HTML, CSS (Familiar).
+* **Programming Languages:** Python, C, C++, JavaScript (Learning).
+* **Web Development:** HTML, CSS, React (Familiar).
 * **Tools:** Git.
 * Actively learning and improving my skills in Data Structure and Algorithms.
 
