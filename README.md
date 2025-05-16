@@ -9,7 +9,7 @@ As a student, I'm actively engaged in learning core computer science concepts, i
 
 * **Programming Languages:** Python, C, C++, JavaScript (Learning).
 * **Web Development:** HTML, CSS, React (Familiar).
-* **Tools:** Git.
+* **Tools:** Git, Figma, Canva.
 * Actively learning and improving my skills in Data Structure and Algorithms.
 
 ## Goals and Aspirations
