@@ -12,6 +12,23 @@ As a student, I'm actively engaged in learning core computer science concepts, i
 * **Tools:** Git, Figma, Canva.
 * Actively learning and improving my skills in Data Structure and Algorithms.
 
+## Projects
+
+### 🖼️ Image Uploader
+A lightweight client-side image uploader built with plain HTML, CSS, and JavaScript.
+
+**Features:**
+- Drag & drop or click-to-browse file selection
+- Instant image preview in a responsive grid
+- Displays file name, size, and format for each image
+- Remove individual images or clear all at once
+- Validates file type and enforces a 10 MB per-file size limit
+- Error toasts for unsupported or oversized files
+
+**Files:** `index.html` · `style.css` · `script.js`
+
+---
+
 ## Goals and Aspirations
 
 * To excel in my B.Tech Computer Science program.

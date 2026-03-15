@@ -1,0 +1,235 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 860px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 32px;
+  font-size: 1rem;
+}
+
+/* ── Upload Area ── */
+.upload-area {
+  border: 2.5px dashed #a0b4cc;
+  border-radius: 16px;
+  background: #fff;
+  padding: 56px 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.upload-area:hover,
+.upload-area.drag-over {
+  border-color: #4a90e2;
+  background: #eaf3ff;
+}
+
+.upload-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  pointer-events: none;
+}
+
+.upload-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 6px;
+  pointer-events: none;
+}
+
+.upload-subtext {
+  color: #999;
+  margin-bottom: 16px;
+  pointer-events: none;
+}
+
+.browse-btn {
+  display: inline-block;
+  background: #4a90e2;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.browse-btn:hover {
+  background: #357abd;
+}
+
+.upload-hint {
+  margin-top: 16px;
+  font-size: 0.82rem;
+  color: #aaa;
+  pointer-events: none;
+}
+
+/* ── Gallery ── */
+.gallery {
+  margin-top: 40px;
+}
+
+.gallery-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.gallery-header h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.clear-btn {
+  background: transparent;
+  border: 1.5px solid #e05252;
+  color: #e05252;
+  padding: 6px 18px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.clear-btn:hover {
+  background: #e05252;
+  color: #fff;
+}
+
+/* ── Image Grid ── */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* ── Image Card ── */
+.image-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+
+.image-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.image-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-card .card-info {
+  padding: 10px 12px;
+}
+
+.image-card .file-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-card .file-meta {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 2px;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.image-card:hover .remove-btn {
+  opacity: 1;
+}
+
+.remove-btn:hover {
+  background: #e05252;
+}
+
+/* ── Error toast ── */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: #e05252;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.toast.show {
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ── Responsive ── */
+@media (max-width: 480px) {
+  h1 { font-size: 1.5rem; }
+  .image-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}
